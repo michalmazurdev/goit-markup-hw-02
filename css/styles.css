@@ -10,6 +10,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--dirty-white);
+  color: var(--grey);
 }
 .top-section {
   background-color: var(--white);
@@ -37,7 +38,11 @@ body {
 nav a:hover,
 nav a:focus,
 .contacts:hover,
-.contacts:focus {
+.contacts:focus,
+.bottom-style a[href^="mailto"]:hover,
+.bottom-style a[href^="mailto"]:focus,
+.bottom-style a[href^="tel"]:hover,
+.bottom-style a[href^="tel"]:focus {
   color: var(--blue);
 }
 .contacts {
@@ -45,7 +50,6 @@ nav a:focus,
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--grey);
   text-decoration: none;
   letter-spacing: 0.02em;
 }
@@ -75,7 +79,6 @@ nav a:focus,
   height: 50px;
 }
 .second-section h3 {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -85,15 +88,12 @@ nav a:focus,
 .second-section p {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--grey);
 }
 .thrid-section h2,
 .fourth-section h2 {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
@@ -111,11 +111,9 @@ nav a:focus,
   color: var(--almost-black);
 }
 .fourth-section p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88s;
   letter-spacing: 0.03em;
-  color: var(--grey);
 }
 .bottom-style {
   background-color: var(--dark-backgorund);
@@ -165,8 +163,6 @@ nav a:focus,
 }
 .portfolio-section p {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: var(--grey);
 }
